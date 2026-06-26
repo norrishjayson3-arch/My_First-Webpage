@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employee Registration Form</title>
+</head>
+
+<body>
+
+    <h1 align="center">Employee Registration Form</h1>
+
+    <form>
+
+        <table align="center" cellpadding="8">
+
+            <tr>
+                <td>Employee ID:</td>
+                <td><input type="text" name="empid"></td>
+            </tr>
+
+            <tr>
+                <td>Full Name:</td>
+                <td><input type="text" name="fullname"></td>
+            </tr>
+
+            <tr>
+                <td>Email:</td>
+                <td><input type="email" name="email"></td>
+            </tr>
+
+            <tr>
+                <td>Password:</td>
+                <td><input type="password" name="password"></td>
+            </tr>
+
+            <tr>
+                <td>Phone Number:</td>
+                <td><input type="tel" name="phone"></td>
+            </tr>
+
+            <tr>
+                <td>Date of Birth:</td>
+                <td><input type="date" name="dob"></td>
+            </tr>
+
+            <tr>
+                <td>Gender:</td>
+                <td>
+                    <input type="radio" name="gender" value="Male"> Male
+                    <input type="radio" name="gender" value="Female"> Female
+                    <input type="radio" name="gender" value="Other"> Other
+                </td>
+            </tr>
+
+            <tr>
+                <td>Department:</td>
+                <td>
+                    <select name="department">
+                        <option>Human Resources</option>
+                        <option>Finance</option>
+                        <option>Marketing</option>
+                        <option>Information Technology</option>
+                        <option>Operations</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Skills:</td>
+                <td>
+                    <input type="checkbox" name="skills" value="HTML"> HTML
+                    <input type="checkbox" name="skills" value="CSS"> CSS
+                    <input type="checkbox" name="skills" value="JavaScript"> JavaScript
+                </td>
+            </tr>
+
+            <tr>
+                <td>Address:</td>
+                <td>
+                    <textarea name="address" rows="4" cols="25"></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Upload Resume:</td>
+                <td><input type="file" name="resume"></td>
+            </tr>
+
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Register">
+                    <input type="reset" value="Clear">
+                </td>
+            </tr>
+
+        </table>
+
+    </form>
+
+</body>
+</html>
